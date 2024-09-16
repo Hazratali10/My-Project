@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">ShopMate</div>
+    <div class="cart">
+      <span id="cart-count">0</span> items in cart
+    </div>
+  </header>
+
+  <section class="products">
+    <h1>Featured Products</h1>
+    <div class="product-list">
+      <!-- Product 1 -->
+      <div class="product">
+        <img src="w.jpg" alt="Watch">
+        <h2>Watch for Men</h2>
+        <p>$10.00</p>
+        <button onclick="addToCart(1, 'Watch', 10)">Add to Cart</button>
+      </div>
+      <!-- Product 2 -->
+      <div class="product">
+        <img src="g.jpg" alt="Accesries">
+        <h2>Accesries for Men</h2>
+        <p>$20.00</p>
+        <button onclick="addToCart(2, 'Accesries', 20)">Add to Cart</button>
+      </div>
+      <!-- Product 3 -->
+      <div class="product">
+        <img src="ts.jpg" alt="T-Shirts">
+        <h2>T-Shirts for Men</h2>
+        <p>$10.00</p>
+        <button onclick="addToCart(3, 'T-Shirts', 30)">Add to Cart</button>
+      </div>
+      <!-- Product 4 -->
+      <div class="product">
+        <img src="s.jpg" alt="Men Shoes">
+        <h2>Men Shoes</h2>
+        <p>$10.00</p>
+        <button onclick="addToCart(3, 'Men Shoes', 30)">Add to Cart</button>
+      </div>
+       <!-- Product 5 -->
+       <div class="product">
+        <img src="mp.jpg" alt="Men Perfume">
+        <h2>Men Perfume</h2>
+        <p>$35.00</p>
+        <button onclick="addToCart(3, 'Men Perfume', 30)">Add to Cart</button>
+      </div>
+    </div>
+    <div class="product-list1">
+        <!-- Product 6 -->
+        <div class="product">
+          <img src="c.jpg" alt="Women Cloths">
+          <h2>Women Cloths</h2>
+          <p>$30.00</p>
+          <button onclick="addToCart(1, 'Women Cloths', 10)">Add to Cart</button>
+        </div>
+        <!-- Product 7 -->
+        <div class="product">
+          <img src="sb.jpg" alt="Shoping Bag">
+          <h2>Shoping Bag</h2>
+          <p>$20.00</p>
+          <button onclick="addToCart(2, 'Shoping Bag', 20)">Add to Cart</button>
+        </div>
+        <!-- Product 8 -->
+        <div class="product">
+          <img src="ws.jpg" alt="Women Shoes">
+          <h2>Shoes for Women</h2>
+          <p>$30.00</p>
+          <button onclick="addToCart(3, 'Women Shoes', 30)">Add to Cart</button>
+        </div>
+        <!-- Product 9 -->
+        <div class="product">
+          <img src="bp.jpg" alt="Beauty Products">
+          <h2>Beauty Products</h2>
+          <p>$30.00</p>
+          <button onclick="addToCart(3, 'Beauty Product', 30)">Add to Cart</button>
+        </div>
+         <!-- Product 10 -->
+      <div class="product">
+        <img src="wn.jpg" alt="Women Necklace">
+        <h2>Women Necklace</h2>
+        <p>$15.00</p>
+        <button onclick="addToCart(3, 'Necklace', 30)">Add to Cart</button>
+      </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+  <section class="cart-section">
+    <h2>Your Cart</h2>
+    <ul id="cart-items">
+      <li>No items in cart yet.</li>
+    </ul>
+    <p>Total: $<span id="total-price">0.00</span></p>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
